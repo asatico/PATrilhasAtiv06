@@ -18,13 +18,13 @@ class Program
 	    Console.ReadKey(true);
     }
 
-    // Função para verificar se um número é primo
+    
     static bool EhPrimo(int numero)
     {
         if (numero < 2)
             return false;
 
-        for (int i = 2; i <= Math.Sqrt(numero); i++) // Verifica divisores até a raiz quadrada
+        for (int i = 2; i <= Math.Sqrt(numero); i++) 
         {
             if (numero % i == 0)
                 return false;
