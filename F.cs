@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
     	
-    	Console.Write("Escreva um número primo:");
+    	Console.Write("Escreva a quantidades de números que vocer quer escrever:");
     	int quant = int.Parse(Console.ReadLine());
     	Console.Clear();
     	
